@@ -128,4 +128,51 @@ router.delete('/', auth, async (req, res) => {
   }
 });
 
+router.put(
+  '/experience',
+  [
+    auth,
+    [
+      check('title', 'Title is required').not().isEmpty(),
+      check('company', 'Company is required').not().isEmpty(),
+      check('from', 'From is required').not().isEmpty(),
+    ],
+  ],
+  async (req, res) => {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+      res.status(400).json({ errors: errors.array() });
+    }
+    const {
+      title,
+      company,
+      location,
+      from,
+      to,
+      current,
+      description,
+    } = req.body;
+    let newExperience = {};
+    if (title) newExperience.title = title;
+    if (company) newExperience.company = company;
+    if (location) newExperience.location = location;
+    if (from) newExperience.from = from;
+    if (to) newExperience.to = to;
+    if (current) newExperience.current = current;
+    if (description) newExperience.description = description;
+    try {
+      const profile = await Profile.findOne({ user: req.user.id });
+      if (!profile) {
+        res.status(400).json({ msg: 'User not found' });
+      }
+      profile.experience.unshift(newExperience);
+      await profile.save();
+      res.json(profile);
+    } catch (err) {
+      console.log({ error: [{ message: err.message }] });
+      res.status(500).send('Server Error');
+    }
+  }
+);
+
 module.exports = router;
