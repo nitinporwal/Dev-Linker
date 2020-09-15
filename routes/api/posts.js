@@ -32,4 +32,14 @@ router.post(
   }
 );
 
+router.get('/', auth, async (req, res) => {
+  try {
+    const posts = await Post.find();
+    res.json(posts);
+  } catch (err) {
+    console.error({ error: [{ msg: err.message }] });
+    res.status(500).send('Server Error');
+  }
+});
+
 module.exports = router;
