@@ -1,0 +1,149 @@
+[33mcommit 8501b0b1988457bc5688ed1f9f5f9dc260e1211d[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: nitin-codr <nitinporwal99@gmail.com>
+Date:   Thu Sep 17 22:21:54 2020 +0530
+
+    add route to like a comment
+
+[33mcommit ee9fae5e03a56c4ba1df49a9c481125d10f6069b[m
+Author: nitin-codr <nitinporwal99@gmail.com>
+Date:   Tue Sep 15 17:18:22 2020 +0530
+
+    get post by id route setup
+
+[33mcommit beea6460fc32b75efc9ed877fbc98b215abcfd3b[m
+Author: nitin-codr <nitinporwal99@gmail.com>
+Date:   Tue Sep 15 16:41:54 2020 +0530
+
+    delete post by id route setup
+
+[33mcommit 506cb144a19ea401d2631b0d0efe2a1e00049bb4[m
+Author: nitin-codr <nitinporwal99@gmail.com>
+Date:   Tue Sep 15 15:40:24 2020 +0530
+
+    get all profiles route setup
+
+[33mcommit 218f320d8bba7ced859e31e3274f4776faa7aae8[m
+Author: nitin-codr <nitinporwal99@gmail.com>
+Date:   Tue Sep 15 15:09:43 2020 +0530
+
+    add posts route to add new post
+
+[33mcommit 6712a9b30e310584d1f8fc644fc580985e60c035[m
+Author: nitin-codr <nitinporwal99@gmail.com>
+Date:   Tue Sep 15 12:47:47 2020 +0530
+
+    add PostSchema in models
+
+[33mcommit 861262e3f5b18ed0be318c1d1366f0309d5d45d9[m
+Author: nitin-codr <nitinporwal99@gmail.com>
+Date:   Sat Sep 12 00:19:51 2020 +0530
+
+    add github username details route
+
+[33mcommit 0dad64849cf4e70b0e6967b485f2e9279a147bee[m
+Author: nitin-codr <nitinporwal99@gmail.com>
+Date:   Fri Sep 11 23:29:47 2020 +0530
+
+    add education add and remove route
+
+[33mcommit c1743f17bb9fd15c17cd44ee00b9378aa2c626d4[m
+Author: nitin-codr <nitinporwal99@gmail.com>
+Date:   Fri Sep 11 22:47:08 2020 +0530
+
+    add delete route for experience
+
+[33mcommit 84567b87d9a0fe3e0fe657151c6b1802fbfe66cd[m
+Author: nitin-codr <nitinporwal99@gmail.com>
+Date:   Fri Sep 11 17:02:44 2020 +0530
+
+    add route for update or add porfile experience
+
+[33mcommit b1130b67b4b8d45efd84aa649398a2b41e5f8b0c[m
+Author: nitin-codr <nitinporwal99@gmail.com>
+Date:   Wed Sep 9 23:25:14 2020 +0530
+
+    delete profile and user route setup
+
+[33mcommit 1e3246e6487a77635dc0a7ba284423870f73f1d9[m
+Author: nitin-codr <nitinporwal99@gmail.com>
+Date:   Wed Sep 9 23:15:21 2020 +0530
+
+    get all profiles and get profile by id setup
+
+[33mcommit eb58ba95b4de1de78af4bdd65e318e655fc86092[m
+Author: nitin-codr <nitinporwal99@gmail.com>
+Date:   Wed Sep 9 22:47:01 2020 +0530
+
+    add profile and update profile route setup
+
+[33mcommit fb91daa52e54ece940d0a99c9c258277ddc9c49c[m
+Author: nitin-codr <nitinporwal99@gmail.com>
+Date:   Wed Sep 9 01:48:52 2020 +0530
+
+    get current user profile route setup
+
+[33mcommit 54d72af4e7c126afbde10c72f0bd86f2b09c6107[m
+Author: nitin-codr <nitinporwal99@gmail.com>
+Date:   Wed Sep 9 01:29:58 2020 +0530
+
+    add Profile Schema
+
+[33mcommit 7c7572f3cd01c27f705fd6a5b248630658f43a90[m
+Author: nitin-codr <nitinporwal99@gmail.com>
+Date:   Wed Sep 9 01:14:06 2020 +0530
+
+    login route setup
+
+[33mcommit 42bd8ad7b5fd45de9f4ea9e45f5be1861257a7ea[m
+Author: nitin-codr <nitinporwal99@gmail.com>
+Date:   Thu Sep 3 18:58:54 2020 +0530
+
+    custom auth middleware and jwt verify
+
+[33mcommit 98a52c558008119fbd357dc6a5ebaba2c5da2da2[m
+Author: nitin-codr <nitinporwal99@gmail.com>
+Date:   Thu Sep 3 16:52:36 2020 +0530
+
+    implement jwt token for users
+
+[33mcommit 2c88d5c912687cb4b77b19ecb4f88d541732316b[m
+Author: nitin-codr <nitinporwal99@gmail.com>
+Date:   Thu Sep 3 13:53:21 2020 +0530
+
+    User registeration
+
+[33mcommit d349d72bef5d7aeb12ce4a336b2cb5f1e128d45f[m
+Author: nitin-codr <nitinporwal99@gmail.com>
+Date:   Thu Sep 3 13:46:15 2020 +0530
+
+    Request and body validation
+
+[33mcommit 2cc216c1c63e36336969c7711d5ad9135c1c74eb[m
+Author: nitin-codr <nitinporwal99@gmail.com>
+Date:   Thu Sep 3 11:00:51 2020 +0530
+
+    add UserSchema
+
+[33mcommit 613e7f6b9f2f6a8b0ab144cbffa6eb943b748604[m
+Author: nitin-codr <nitinporwal99@gmail.com>
+Date:   Thu Sep 3 10:52:45 2020 +0530
+
+    auth, posts, profile, users route setup
+
+[33mcommit 46097d5798995b1b90e94def2aa25203a968eeaf[m
+Author: nitin-codr <nitinporwal99@gmail.com>
+Date:   Thu Sep 3 10:34:51 2020 +0530
+
+    connect mongodb atlas to the project
+
+[33mcommit 72c6e9ae6670c98bbad182b5057f34168be54bf4[m
+Author: nitin-codr <nitinporwal99@gmail.com>
+Date:   Wed Sep 2 13:39:46 2020 +0530
+
+    initial commit
+
+[33mcommit eaaba275c53ed399dc61ba155b2730f8f3ceeba4[m
+Author: nitin-codr <nitinporwal99@gmail.com>
+Date:   Wed Sep 2 13:24:40 2020 +0530
+
+    first commit
